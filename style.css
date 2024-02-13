@@ -62,7 +62,7 @@ body {
 }
 
 .message p{
-    line-height: 2.5;
+    line-height: 2;
     text-align: justify;
 }
 
@@ -70,7 +70,7 @@ body {
     background-color: #1e1e1e;
     padding-top: 48px;
     padding-bottom: 40px;
-    border-radius: 0px 0px 120px 120px;
+    border-radius: 8px 8px 120px 120px;
 }
 
 .invitation.row{
