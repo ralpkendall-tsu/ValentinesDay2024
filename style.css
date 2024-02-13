@@ -1,0 +1,85 @@
+body {
+    background-color: #333333;
+}
+
+.recepient {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('res/img/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.hero-left-container{
+    background-color: rgba(160, 0, 0, 0.55);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.hero-claire {
+    width: 16vw;
+    height: 22vw;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 12px 6px rgba(255, 255, 255, 0.3);
+}
+
+#hero-claire1 {
+    transform: rotate(-20deg);
+}
+
+#hero-claire2 {
+    transform: rotate(20deg);
+}
+
+#hero-rose {
+    width: 6vw;
+    box-shadow: 0 12px 8px rgba(255, 255, 255, 0.3);
+}
+
+.memory-blast {
+    background-color: #1e1e1e;
+    border-radius: 8px 8px 64px 64px;
+    padding-bottom: 128px;
+}
+
+.memory-blast h1 {
+    letter-spacing: 12px;
+}
+
+.memory-blast p {
+    color: rgb(255, 84, 84);
+}
+
+.message {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.message p{
+    line-height: 2.5;
+    text-align: justify;
+}
+
+.invitation {
+    background-color: #1e1e1e;
+    padding-top: 48px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 120px 120px;
+}
+
+.invitation.row{
+    margin-top: 48px;
+}
+
+.food-pic,.place-pic{
+    width: 22vw;
+    height: 22vw;
+    object-fit: cover;
+    border-radius: 8px;
+}
